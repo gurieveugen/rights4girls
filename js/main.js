@@ -32,4 +32,15 @@ jQuery(document).ready(function(){
 
 		e.preventDefault();
 	});
+
+	// ==============================================================
+	// Learn more button
+	// ==============================================================
+	jQuery('.more').click(function(e){
+		var href = jQuery(this).attr('href');
+		$('html, body').animate({
+            scrollTop: $(href).offset().top
+        }, 1000);
+		e.preventDefault();
+	});
 });

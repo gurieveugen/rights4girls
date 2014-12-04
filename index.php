@@ -63,7 +63,7 @@ $tweet     = $tweetfeed->display();
 				  <header>
 				    <h2>It is time to eradicate the term "child prostitute."</h2>
 					</header>
-					<p>There are only victims and survivors of child rape.</p>
+					<p>There are only victims and<br>survivors of child rape.</p>
 					<footer>
 					  <a href="http://www.change.org/p/stop-using-the-term-child-prostitute/" target="_blank" class="more">SIGN PETITION</a>
 						<p>Tell the media there’s no such thing as a child prostitute.</p>
@@ -83,7 +83,7 @@ $tweet     = $tweetfeed->display();
 					<div class="txt">
 						<p>Girls are abducted or lured by pimps and traffickers at bus shelters, outside schools or through social media. Many of them are beaten into submission and sometimes even branded and publicly shamed with their pimp’s name.</p>
 						<footer>
-							<a href="uploads/NoSuchThing_Report.pdf" target="_blank" class="more">see fact sheet</a>
+							<a href="uploads/child welfare and child trafficking.pdf" target="_blank" class="more">see fact sheet</a>
 							<p>Learn more about child sex trafficking in the U.S.</p>
 						</footer>
 					</div>
@@ -98,7 +98,7 @@ $tweet     = $tweetfeed->display();
 					<div class="txt">
 						<p>All too often, the media, law enforcement and others refer to these victims as "child prostitutes," belittling the pain and abuse these young girls endure on a daily basis. And in every state, there are child prostitution laws used to arrest and detain girls bought and sold for sex. These girls are not even of the legal age to consent to sex at all, let alone illicit commercial sex. This has to change -- in language and law.</p>
 						<footer>
-							<a href="uploads/child welfare and child trafficking.pdf" target="_blank" class="more">read report</a>
+							<a href="uploads/NoSuchThing_Report.pdf" target="_blank" class="more">read report</a>
 							<p>Learn about the media and modern day slavery.</p>
 						</footer>
 					</div>

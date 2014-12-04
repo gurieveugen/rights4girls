@@ -252,7 +252,7 @@ aside.sidebar-footer h3
 	font-size:38px;
 	font-weight:700;
 	line-height:42px;
-	letter-spacing:-1px;
+	letter-spacing:1px;
 	text-transform:uppercase;
 	color:#6b0269;
 }
@@ -313,6 +313,12 @@ div.widget-tweet-footer ul li a
 	text-decoration:none;
 }
 
+div.widget-tweet-footer ul li a:hover
+{
+	color:#9a0197;
+	text-decoration:none;
+}
+
 div.widget-tweet-footer ul li a span
 {
   display:none;
@@ -342,6 +348,7 @@ div.widget-actnow-footer div.txt
 	font-size:18px;
 	font-weight:700;
 	line-height:22px;
+	letter-spacing:1px;
 	color:#ffffff;
 	text-align:center;
 	position:relative;
@@ -363,6 +370,7 @@ div.widget-actnow-footer a.more
 	font-size:24px;
 	font-weight:700;
 	line-height:24px;
+	letter-spacing:1px;
 	color:#FFFFFF;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -391,9 +399,9 @@ div.widget-informed-footer p
 
 div.widget-informed-footer input.txt
 {
-  width:244px;
+  width:248px;
 	height:33px;
-	margin:0px 0px 22px 0px;
+	margin:0px 0px 0px 0px;
 	padding:5px 16px 5px 16px;
 	border:none;
 	background:#d7d7d7;
@@ -405,8 +413,52 @@ div.widget-informed-footer input.txt
 	color:#a9a6a4;
 }
 
+div.widget-informed-footer input.txt:focus
+{
+  outline-color:#9a0197;
+}
+
+div.widget-informed-footer label
+{
+  width:231px;
+	height:41px;
+	padding:0px 0px 0px 49px;
+	display:block;
+	background:#6b0269;
+	font-size:12px;
+	font-style:italic;
+	line-height:41px;
+	color:#ffffff;
+	position:relative;
+}
+
+div.widget-informed-footer label span
+{
+  width:43px;
+	height:41px;
+	display:block;
+	font-size:26px;
+	line-height:41px;
+	text-align:center;
+	color:#ffffff;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+div.widget-informed-footer label.success span
+{
+  background:#4b0149;
+}
+
+div.widget-informed-footer label.error span
+{
+  background:#ab01a7;
+}
+
 div.widget-informed-footer div.submit
 {
+  margin:22px 0px 0px 0px;
   padding:0px 0px 0px 0px;
 	font-size:24px;
 	line-height:24px;
@@ -456,6 +508,12 @@ div.logo-footer
 div.logo-footer a
 {
   color:#ffffff;
+	text-decoration:none;
+}
+
+div.logo-footer a:hover
+{
+  color:#9a0197;
 	text-decoration:none;
 }
 
@@ -527,6 +585,7 @@ div.bottom-footer h3
 	font-size:24px;
 	font-weight:700;
 	line-height:24px;
+	letter-spacing:1px;
 	text-transform:uppercase;
 	color:#ffffff;
 }
@@ -651,6 +710,7 @@ figure.hero-banner h3
 	font-weight:700;
 	line-height:72px;
 	text-transform:uppercase;
+	letter-spacing:1px;
 	color:#ffffff;
 	position:relative;
 }
@@ -672,6 +732,7 @@ figure.hero-banner a.more
 	font-size:24px;
 	font-weight:700;
 	line-height:24px;
+	letter-spacing:1px;
 	color:#FFFFFF;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -732,6 +793,7 @@ article.content-area2 h2
 	font-weight:700;
 	line-height:42px;
 	text-transform:uppercase;
+	letter-spacing:1px;
 }
 
 article.content-area2 p
@@ -750,6 +812,7 @@ article.content-area2 footer
 	font-size:18px;
 	font-weight:700;
 	line-height:22px;
+	letter-spacing:1px;
 	position:relative;
 }
 
@@ -763,6 +826,7 @@ article.content-area2 a.more
   box-shadow:rgba(0,0,0,0.5) 0px 0px 8px;
 	font-size:24px;
 	line-height:24px;
+	letter-spacing:1px;
 	color:#FFFFFF;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -837,6 +901,7 @@ article.content-area3 figcaption
 	font-size:38px;
 	font-weight:700;
 	line-height:42px;
+	letter-spacing:1px;
 	text-transform:uppercase;
 	position:absolute;
 	top:32px;
@@ -883,6 +948,7 @@ article.content-area3 footer
 	font-size:18px;
 	font-weight:700;
 	line-height:22px;
+	letter-spacing:1px;
 	position:relative;
 }
 
@@ -896,6 +962,7 @@ article.content-area3 a.more
   box-shadow:rgba(0,0,0,0.5) 0px 0px 8px;
 	font-size:24px;
 	line-height:24px;
+	letter-spacing:1px;
 	color:#FFFFFF;
 	text-decoration:none;
 	text-transform:uppercase;
