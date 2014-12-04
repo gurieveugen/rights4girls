@@ -2,20 +2,11 @@
 // ==============================================================
 // REQUIRE
 // ==============================================================
-require_once 'twitteroauth/twitteroauth.php';
+require_once 'tweetfeed.php';
+require_once 'repeater.php';
 
-$twitter = new TwitterOAuth(	
-	'aMY4Zsnn2KYi5TZkTCr9NlMuF',
-	'vxkz9T7QQWUmqnJbkf7Eg8aHvFOCdcSMVMZrfbUPdNbw7nuYx9',
-	'2717095358-aRUmevpNvioRb52xkFYls0Q7ldf9cIo2PjJzsqG',
-	'woklRm4IAnMK5dEkXCAlSboirK4qlUmYcYNkRVddPIbl4'
-);
-
-$query  = sprintf('https://api.twitter.com/1.1/statuses/user_timeline.json?count=%s&screen_name=%s', 1, urlencode('rights4girls'));
-$tweets = $twitter->get($query);
-echo '<pre>';
-var_dump($tweets);
-echo '</pre>';
+$tweetfeed = new TweetFeed();
+$tweet     = $tweetfeed->display();
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -34,6 +25,11 @@ echo '</pre>';
 <script charset="utf-8" type="text/javascript" src="js/css_browser_selector.js"></script>
 <script src="//use.typekit.net/itu5bwb.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+<script>
+	var current_page_url = '<?php echo Repeater::curPageURL(); ?>';
+</script>
 </head>
 
 <body>
@@ -123,20 +119,7 @@ echo '</pre>';
 	<footer id="footer" class="cf">
 	  <aside class="sidebar-footer cf">
 		  <div class="center-box">
-			  <div class="widget-tweet-footer">
-				  <h3>follow us</h3>
-					<div class="post cf">
-					  <h2><a href="#">@rights4girls</a></h2>
-						<p>Shop with @AmazonSmile, and Amazon will make a donation to Rights4Girls. <a href="#">http://smile.amazon.com/94-33865</a></p>
-						<ul class="cf">
-						  <li><a href="#" class="fa fa-share"><span>share</span></a></li>
-							<li><a href="#" class="fa fa-retweet"><span>retweet</span></a></li>
-							<li><a href="#" class="fa fa-star"><span>star</span></a></li>
-						</ul>
-					</div>
-					<a href="https://twitter.com/Rights4Girls" class="twitter-follow-button" data-show-count="false">Follow @Rights4Girls</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-				</div>
+			  <?php echo $tweet; ?>
 				
 				<div class="widget-actnow-footer">
 				  <h3>ACT NOW</h3>
@@ -149,8 +132,8 @@ echo '</pre>';
 				<div class="widget-informed-footer">
 				  <h3>stay informed</h3>
 					<p>Get all the latest policy updates by signing up for our quarterly newsletter. </p>
-					<form>
-					  <input type="text" value="Enter your email address here" class="txt">
+					<form action="https://app.e2ma.net/app2/audience/signup/1740275/1723850.777765322/?v=a" method="post" id="signup" name="signup">
+					  <input type="text" placeholder="Enter your email address here" class="txt" name="email" required autocomplete="off">
 						<div class="submit fa fa-pencil"><input type="submit" value="subscribe"></div>
 					</form>
 				</div>

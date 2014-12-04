@@ -35,11 +35,11 @@ class TweetFeed{
 			<h3>follow us</h3>
 			<div class="post cf">
 				<h2><a href="https://twitter.com/rights4girls">@rights4girls</a></h2>
-				<p><?php echo $tweet['text']; ?></p>
+				<p><?php echo $tweet->text; ?></p>
 				<ul class="cf">
-					<li><a href="#" class="fa fa-share"><span>share</span></a></li>
-					<li><a href="#" class="fa fa-retweet"><span>retweet</span></a></li>
-					<li><a href="#" class="fa fa-star"><span>star</span></a></li>
+					<li><a href="https://twitter.com/intent/tweet?in_reply_to=<?php echo $tweet->id_str; ?>" class="fa fa-share"><span>share</span></a></li>
+					<li><a href="https://twitter.com/intent/retweet?tweet_id=<?php echo $tweet->id_str; ?>" class="fa fa-retweet"><span>retweet</span></a></li>
+					<li><a href="https://twitter.com/intent/favorite?tweet_id=<?php echo $tweet->id_str; ?>" class="fa fa-star"><span>star</span></a></li>
 				</ul>
 			</div>
 			<a href="https://twitter.com/Rights4Girls" class="twitter-follow-button" data-show-count="false">Follow @Rights4Girls</a>
