@@ -1,0 +1,10 @@
+[25-Nov-2014 01:37:16 America/Los_Angeles] PHP Fatal error:  Call to undefined function TwitterOAuth() in /home/miydim3/public_html/wp3/index.php on line 7
+[25-Nov-2014 01:38:06 America/Los_Angeles] PHP Fatal error:  Call to undefined function TwitterOAuth() in /home/miydim3/public_html/wp3/index.php on line 7
+[25-Nov-2014 01:38:07 America/Los_Angeles] PHP Fatal error:  Call to undefined function TwitterOAuth() in /home/miydim3/public_html/wp3/index.php on line 7
+[25-Nov-2014 01:47:44 America/Los_Angeles] PHP Fatal error:  Cannot use object of type stdClass as array in /home/miydim3/public_html/wp3/tweetfeed.php on line 38
+[25-Nov-2014 02:31:41 America/Los_Angeles] PHP Fatal error:  Using $this when not in object context in /home/miydim3/public_html/wp3/repeater.php on line 49
+[25-Nov-2014 02:32:39 America/Los_Angeles] PHP Warning:  http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given in /home/miydim3/public_html/wp3/repeater.php on line 49
+[25-Nov-2014 02:33:42 America/Los_Angeles] PHP Warning:  http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given in /home/miydim3/public_html/wp3/repeater.php on line 49
+[25-Nov-2014 02:34:27 America/Los_Angeles] PHP Warning:  http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given in /home/miydim3/public_html/wp3/repeater.php on line 49
+[25-Nov-2014 02:38:50 America/Los_Angeles] PHP Warning:  http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given in /home/miydim3/public_html/wp3/repeater.php on line 49
+[25-Nov-2014 02:44:31 America/Los_Angeles] PHP Fatal error:  Class 'Repeater' not found in /home/miydim3/public_html/wp3/ajax.php on line 5

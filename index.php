@@ -56,7 +56,7 @@ $tweet     = $tweetfeed->display();
 			</figcaption>
 		</figure>
 		
-		<article class="content-area2 cf">
+		<article id="learnmore" class="content-area2 cf">
 		  <div class="center-box">
 			  <figure><img src="images/uploads/img_02.jpg" alt=" "></figure>
 				<div class="txt">
@@ -72,7 +72,7 @@ $tweet     = $tweetfeed->display();
 			</div>
 		</article>
 		
-		<div id="learnmore" class="content-bg-box cf">
+		<div class="content-bg-box cf">
 		  <div class="center-box">
 			  <article class="content-area3 right cf">
 				  <figure>
@@ -99,7 +99,7 @@ $tweet     = $tweetfeed->display();
 						<p>All too often, the media, law enforcement and others refer to these victims as "child prostitutes," belittling the pain and abuse these young girls endure on a daily basis. And in every state, there are child prostitution laws used to arrest and detain girls bought and sold for sex. These girls are not even of the legal age to consent to sex at all, let alone illicit commercial sex. This has to change -- in language and law.</p>
 						<footer>
 							<a href="uploads/NoSuchThing_Report.pdf" target="_blank" class="more">read report</a>
-							<p>Learn about the media and modern day slavery.</p>
+							<p>Ending child prostitution in language and law</p>
 						</footer>
 					</div>
 				</article>
