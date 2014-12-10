@@ -26,7 +26,7 @@ $tweet     = $tweetfeed->display();
 <script src="//use.typekit.net/itu5bwb.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="/js/main.js"></script>
+<script src="http://181.224.139.32/~rights4g/js/main.js"></script>
 <script>
 	var current_page_url = '<?php echo Repeater::curPageURL(); ?>';
 </script>
